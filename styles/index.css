@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--Light-gray);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.QR{
+    width: 375px;
+    background: var(--White);
+    margin: 100px auto 20px;
+    padding: 25px 20px 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.QR img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.QR h2{
+    font-size: 25px;
+    color: var(--Dark-blue);
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.QR p{
+    color: var(--Grayish-blue);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
